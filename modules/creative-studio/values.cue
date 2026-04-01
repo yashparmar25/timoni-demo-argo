@@ -9,7 +9,7 @@ values: {
 	app: "creative-studio"
 	image: {
 		repository: "demo.goharbor.io/creative-studio/creative-studio"
-		digest:     "sha256:edd6f736eec4d76af23214bbb7faaa7aaf3c57f8893f3dca1a97aab31c234161"
+		digest:     "sha256:0ecc80a41af520b08647a6939eb483423bf09c4e055aaa70fe994e940d6a15c4"
 		tag:        ""
 	}
 	replicas: 3
