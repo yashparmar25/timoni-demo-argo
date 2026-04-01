@@ -12,7 +12,7 @@ values: {
 		digest:     "sha256:0ecc80a41af520b08647a6939eb483423bf09c4e055aaa70fe994e940d6a15c4"
 		tag:        ""
 	}
-	replicas: 1
+	replicas: *1 | int
 	service: {
 		port:     5000
 		nodePort: 32000
