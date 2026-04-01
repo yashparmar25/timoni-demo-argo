@@ -8,7 +8,7 @@ values: {
 	}
 	app: "creative-studio"
 	image: {
-		repository: "demo.goharbor.io/creative-studio/creative-studio"
+		repository: *"demo.goharbor.io/creative-studio/creative-studio" | string
 		digest:     "sha256:0ecc80a41af520b08647a6939eb483423bf09c4e055aaa70fe994e940d6a15c4"
 		tag:        ""
 	}
